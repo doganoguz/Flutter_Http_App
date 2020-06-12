@@ -137,7 +137,7 @@ class CalisanlarAppState extends State<CalisanlarApp> {
                       child: ButtonBar(
                         children: <Widget>[
                           FlatButton(
-                            child: Text('DETAY'),
+                            child: Text('DETAYLAR'),
                             
                             onPressed: () { 
 
