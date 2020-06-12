@@ -1,4 +1,4 @@
-# Calisanlar_App
+# Çalışanlar Listesi
 
 Basit Bir Flutter Http Uygulaması Sayesinde Sizlerde Serverlerda Coşabilirsiniz :)
 
