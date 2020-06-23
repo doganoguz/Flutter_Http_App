@@ -50,20 +50,28 @@ class CalisanlarAppState extends State<CalisanlarApp> {
         theme: ThemeData(
     
         accentColor: Colors.amber,
+        
       ),
 
       debugShowCheckedModeBanner: false, //Debug bandını kaldırır
       title: 'Çalışan Listemiz',
       home: Scaffold(
+
         appBar: AppBar(
+
           title: Text('Çalışan Listemiz'),
           backgroundColor: Colors.blueGrey,
+
         ),
+
         body: Container(
+
           margin: EdgeInsets.all(10.0),
           child: ListView.builder(
+
             itemCount: data == null ? 0:data.length,
             itemBuilder: (BuildContext context, int index) {
+            
               return Container(
                 child: Card(
                   child: Column(
