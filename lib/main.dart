@@ -1,14 +1,12 @@
 /* Doğan Oğuz -- 2020 */
-
-
 import 'package:flutter/material.dart';
+import 'package:flutter_http_app/form.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;  
 
 
-
-,void main() {
+void main() {
   runApp(CalisanlarApp());
 }
 
@@ -61,10 +59,23 @@ class CalisanlarAppState extends State<CalisanlarApp> {
 
           title: Text('Çalışan Listemiz'),
           backgroundColor: Colors.blueGrey,
+         
+          actions: <Widget>[
+            new Stack(
+              children: <Widget>[
+                new IconButton(
+                    icon: Icon(Icons.add),
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => FormPage()));
+                    }),
+              ],
+            ),
+          ],
 
         ),
 
-        body: Container(
+            body: Container(
 
           margin: EdgeInsets.all(10.0),
           child: ListView.builder(
@@ -141,28 +152,15 @@ class CalisanlarAppState extends State<CalisanlarApp> {
                       ],
                       ),
                     ),
-                    ButtonTheme.bar(
-                      child: ButtonBar(
-                        children: <Widget>[
-                          FlatButton(
-                            child: Text('DETAYLAR'),
-                            
-                            onPressed: () { 
-
-
-                            },
-                          ),
-                       
-                        ],
-                      ),
-                    ),
+                  
                   ],),
                 )
               );
             },
           ),
         )
-      ),
+    ),
+
     
     );
     

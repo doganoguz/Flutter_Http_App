@@ -6,10 +6,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
-TextEditingController _isim = new TextEditingController();
-TextEditingController _soyisim = new TextEditingController();
-TextEditingController _yas = new TextEditingController();
-TextEditingController _aciklama = new TextEditingController();
+TextEditingController isim = new TextEditingController();
+TextEditingController soyisim = new TextEditingController();
+TextEditingController yas = new TextEditingController();
+TextEditingController aciklama = new TextEditingController();
 
 class FormPage extends StatefulWidget {
 
@@ -25,7 +25,7 @@ class _FormPageState extends State<FormPage> {
 
 
 
-  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  final GlobalKey<ScaffoldState> scaffoldKey = new GlobalKey<ScaffoldState>();
   final GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
 
 
@@ -42,6 +42,7 @@ class _FormPageState extends State<FormPage> {
 
 
           ],
+      
         ),
 
 
