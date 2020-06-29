@@ -50,7 +50,15 @@ class _FormPageState extends State<FormPage> {
           backgroundColor: Color(0xff4875B0),
           onPressed: () async {
 
+         final FormState form = _formKey.currentState;
+             if (form.validate()) {
+      
+              }
+             else {
+      
+               }
           
+
           },
           
           ),
@@ -59,9 +67,10 @@ class _FormPageState extends State<FormPage> {
 
           padding: EdgeInsets.all(13),
 
-          key: _formKey,
+         
 
           child: Form(
+             key: _formKey,
             child: Column(
 
               children: <Widget>[
@@ -101,6 +110,8 @@ class _FormPageState extends State<FormPage> {
                       filled: true,
                       fillColor: Colors.grey[200],
                     ),
+                   validator: (value) =>
+                  value.isEmpty ? 'İsim Alanı Boş Geçilemez!' : null,
                   ),
                 ),
                 Container(
