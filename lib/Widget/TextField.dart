@@ -11,7 +11,10 @@ class TextFormField extends StatelessWidget {
     this.validator,
     this.onSaved,
     this.isPassword = false,
-    this.isEmail = false, InputDecoration decoration, bool obscureText, TextInputType keyboardType,
+    this.isEmail = false,
+    InputDecoration decoration,
+    bool obscureText,
+    TextInputType keyboardType,
   });
   @override
   Widget build(BuildContext context) {
@@ -23,9 +26,8 @@ class TextFormField extends StatelessWidget {
           contentPadding: EdgeInsets.all(15.0),
           border: InputBorder.none,
           filled: true,
-          fillColor: Colors.grey[200],
+          fillColor: Colors.blueGrey,
           prefixIcon: Icon(Icons.done),
-      
         ),
         obscureText: isPassword ? true : false,
         validator: validator,
