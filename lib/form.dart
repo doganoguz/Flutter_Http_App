@@ -10,7 +10,7 @@ TextEditingController soyisim = new TextEditingController();
 TextEditingController yas = new TextEditingController();
 TextEditingController aciklama = new TextEditingController();
 TextEditingController parola = new TextEditingController();
-TextEditingController  test = new TextEditingController();
+TextEditingController test = new TextEditingController();
 
 class FormPage extends StatefulWidget {
   @override
@@ -165,6 +165,32 @@ class _FormPageState extends State<FormPage> {
                   alignment: Alignment.topLeft,
                   child: Text(
                     "Yaş:",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: Colors.blueGrey,
+                      fontWeight: FontWeight.w400,
+                      fontFamily: 'Poppins-Regular',
+                      height: 1.8,
+                    ),
+                  ),
+                ),
+                Container(
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                    "Test:",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: Colors.blueGrey,
+                      fontWeight: FontWeight.w400,
+                      fontFamily: 'Poppins-Regular',
+                      height: 1.8,
+                    ),
+                  ),
+                ),
+                Container(
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                    "Test:",
                     textAlign: TextAlign.left,
                     style: TextStyle(
                       color: Colors.blueGrey,
