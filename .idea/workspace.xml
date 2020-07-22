@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="516e6b42-3f57-456e-84b4-a2dcbf15476a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/form.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/form.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+            <state relative-caret-position="305">
+              <caret line="301" column="51" lean-forward="true" selection-start-line="301" selection-start-column="51" selection-end-line="301" selection-end-column="51" />
               <folding>
                 <element signature="e#19#59#0" expanded="true" />
               </folding>
@@ -78,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -103,6 +102,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,6 +162,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
       <window_info id="Captures" order="1" side_tool="true" />
@@ -215,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/form.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+        <state relative-caret-position="305">
+          <caret line="301" column="51" lean-forward="true" selection-start-line="301" selection-start-column="51" selection-end-line="301" selection-end-column="51" />
           <folding>
             <element signature="e#19#59#0" expanded="true" />
           </folding>
