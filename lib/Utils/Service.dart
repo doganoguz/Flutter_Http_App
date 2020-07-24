@@ -1,9 +1,11 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'dart:io';
+import 'package:dio/dio.dart';
 
-String token;
+class Service {
+  final client = Dio()..options.baseUrl = "http://192.168.1.1:3000";
 
-class Service {}
+  Future<test> getService() async {
+    final response = await client.post('/test');
+    final data = response.data;
+    return test.fromJson(data);
+  }
+}
