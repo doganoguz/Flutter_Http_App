@@ -225,6 +225,37 @@ class _FormPageState extends State<FormPage> {
                 Container(
                   alignment: Alignment.topLeft,
                   child: Text(
+                    "Test:",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      color: Colors.blueGrey,
+                      fontWeight: FontWeight.w400,
+                      fontFamily: 'Poppins-Regular',
+                      height: 1.8,
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.all(8),
+                  alignment: Alignment.centerLeft,
+                  child: TextFormField(
+                    controller: test,
+                    style: TextStyle(
+                      fontWeight: FontWeight.w500,
+                      fontFamily: 'Poppins-Regular',
+                      color: Colors.black,
+                    ),
+                    decoration: InputDecoration(
+                      contentPadding: EdgeInsets.all(15.0),
+                      border: InputBorder.none,
+                      filled: true,
+                      fillColor: Colors.grey[200],
+                    ),
+                  ),
+                ),
+                Container(
+                  alignment: Alignment.topLeft,
+                  child: Text(
                     "Cinsiyet:",
                     textAlign: TextAlign.left,
                     style: TextStyle(
